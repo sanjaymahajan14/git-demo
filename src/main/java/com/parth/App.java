@@ -9,6 +9,10 @@ public class App
 			System.out.println("Welcome!");
 		}
 	}
+	//Sanjay.Mahajan 02/02/2023
+	public void addMethod(){
+		System.out.println("New method added!");
+	}
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
