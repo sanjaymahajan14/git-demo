@@ -1,15 +1,11 @@
 package com.parth;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	
 	public void addData(String data) {
 		System.out.println("data ="+data);
-		if(data.equals("Atharva Softech")) {
+		if(data.equals(Constants.Data_Type)) {
 			System.out.println("Welcome!");
 		}
 	}
